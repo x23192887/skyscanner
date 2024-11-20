@@ -29,7 +29,7 @@ const Flights = () => {
         if (!fromAirport && !toAirport && !departDate) {
           const currentDate = new Date();
           const fiveDaysFromNow = new Date();
-          fiveDaysFromNow.setDate(currentDate.getDate() + 5);
+          fiveDaysFromNow.setDate(currentDate.getDate() + 2);
 
           const nextFiveDaysFlights = data.filter(flight => {
             const flightDate = new Date(flight.flyDate);
