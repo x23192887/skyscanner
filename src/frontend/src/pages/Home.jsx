@@ -215,48 +215,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-semibold text-gray-800">Why Choose Us</h2>
-            <p className="text-gray-600 mt-2">We offer the best flight deals tailored just for you.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Feature 1 */}
-            <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1661962354730-cda54fa4f9f1"
-                alt="Best Prices"
-                className="mb-4 w-24 h-24 object-cover rounded-full"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Competitive Prices</h3>
-              <p className="text-gray-600">Get the best prices on flights worldwide.</p>
-            </div>
-            {/* Feature 2 */}
-            <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <img
-                src="https://images.unsplash.com/photo-1615561916422-7014e1078997"
-                alt="24/7 Support"
-                className="mb-4 w-24 h-24 object-cover rounded-full"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">24/7 Support</h3>
-              <p className="text-gray-600">Our support team is here to help you anytime.</p>
-            </div>
-            {/* Feature 3 */}
-            <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1661512529377-ef82f19bf9f8"
-                alt="Secure Booking"
-                className="mb-4 w-24 h-24 object-cover rounded-full"
-              />
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Secure Booking</h3>
-              <p className="text-gray-600">Your transactions are safe with our secure systems.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Popular Destinations */}
       <section className="py-12 bg-indigo-50">
         <div className="container mx-auto px-4">

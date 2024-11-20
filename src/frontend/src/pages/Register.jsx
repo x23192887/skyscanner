@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import { API_REGISTER_URL } from '../utils/constants';
+import { PROJECT_NAME } from "../utils/constants";
 import { FaUser, FaLock, FaEnvelope, FaUserCircle } from 'react-icons/fa';
 
 const Register = () => {
@@ -82,7 +83,7 @@ const Register = () => {
                         alt="Register"
                         className="mx-auto h-32 w-auto rounded-full"
                     />
-                    <h2 className="mt-4 text-4xl font-bold text-gray-800">Join Flighter</h2>
+                    <h2 className="mt-4 text-4xl font-bold text-gray-800">Join {PROJECT_NAME}</h2>
                     <p className="mt-2 text-lg text-gray-600">
                         Embark on your next adventure with us
                     </p>
