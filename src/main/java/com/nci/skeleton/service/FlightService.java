@@ -1,28 +1,14 @@
 package com.nci.skeleton.service;
 
-import com.nci.skeleton.entity.Booking;
 import com.nci.skeleton.entity.Flight;
 import com.nci.skeleton.model.Airports;
-import com.nci.skeleton.model.ResponseModel;
-import com.nci.skeleton.repository.BookingRepository;
 import com.nci.skeleton.repository.FlightRepository;
-import com.nci.skeleton.repository.UserRepository;
-import com.nci.skeleton.security.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
-
-import static com.nci.skeleton.config.Constants.STATUS_ACTIVE;
-import static java.util.Objects.nonNull;
-
 
 @Service
 public class FlightService {
