@@ -95,7 +95,7 @@ const Home = () => {
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1558204692-5f402fe220b9')" }}
       >
         <div className="bg-black bg-opacity-50 p-8 rounded-lg text-center">
-          <h1 className="text-4xl md:text-6xl text-white font-bold mb-4">Fly with dhanusha </h1>
+          <h1 className="text-4xl md:text-6xl text-white font-bold mb-4">Fly with ireland happly </h1>
           <p className="text-lg md:text-2xl text-gray-300">Discover amazing destinations at unbeatable prices</p>
         </div>
       </section>
